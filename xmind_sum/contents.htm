@@ -1,0 +1,519 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <title>Table of Contents</title>
+   <link href="Res/styles/shared.css" rel="stylesheet" type="text/css">
+   <script language="JavaScript" type="text/JavaScript" src="Res/code/boxSettings.js"></script>
+   <script language="JavaScript" type="text/JavaScript" src="Res/code/shared.js"></script>
+   <script language="JavaScript" type="text/JavaScript" src="Res/code/boxController.js"></script>
+</head>
+<body id="page" onload="init()">
+<!-- BEGIN PAGE HEADER -->
+<table id="pageHeader">
+   <tr>
+      <td class="left" rowspan="3">
+         <a class="noHover" href="index.html" target="_parent">
+         <img src="Res/images/logo.gif" alt=""></a> 
+      </td>
+      <td class="right">
+<!-- BEGIN TOOLS UTILITIES--> 
+<div class="utilities">
+  <span class="command">
+    <a href="index.html" target="_parent">
+      <span class="label">Home</span>
+    </a>
+  </span>
+<span class="utilities_toc">
+|
+  <span class="command">
+    <a href="contents.htm" target="_parent">
+      <span class="label">Table of Contents</span>
+    </a>
+  </span>
+</span>
+<!-- BEGIN HEADER UTILITIES OVERVIEW SNIPPET --> 
+|
+  <span class="command">
+     <a href="map.htm" target="_parent">
+       <span class="label">Overview Map</span>
+     </a>
+  </span>
+<!-- END HEADER UTILITIES OVERVIEW SNIPPET --> 
+
+<!-- BEGIN HEADER UTILITIES LEGEND SNIPPET --> 
+|
+  <span class="command">
+    <a href="javascript:openPopup('legend.htm','Legend','scrollbars=yes,resizable=yes,left=20,top=20,width=240,height=450')"> 
+      <span class="label">Icon Legend</span>
+    </a>
+  </span>        
+<!-- END HEADER UTILITIES LEGEND SNIPPET --> 
+
+</div>
+<!-- END TOOLS UTILITIES--> 
+
+      </td>
+   </tr>
+   <tr>
+      <td class="right">
+        <div class="mapName">Tiny_Web_Server</div>
+      </td>
+   </tr>
+   <tr>
+      <td class="right">
+        <div class="contactInformation">Your contact information&nbsp;&nbsp;<a href="mailto:info@company.com">info@company.com</a></div>
+      </td>
+   </tr>
+</table>
+<!-- END PAGE HEADER -->
+
+<table id="pageBody">
+   <col class="TOCContents">
+   <col class="TOCAbout">
+   <tr>
+      <td class="TOCContents">
+<div class="body">
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem1">
+   <a class="topicHyperlink" href="index.html#Topic2">1. 开始</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem2">
+   <a class="topicHyperlink" href="index.html#Topic3">./Tiny_web_Server 80</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem2">
+   <a class="topicHyperlink" href="index.html#Topic4">判断命令行参数 agrc != 2</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem3">
+   <a class="topicHyperlink" href="index.html#Topic10">若是，continue</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem3">
+   <a class="topicHyperlink" href="index.html#Topic11">若不是，跳出来报错</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem2">
+   <a class="topicHyperlink" href="index.html#Topic5">转换port = atoi（argv[1]）</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem2">
+   <a class="topicHyperlink" href="index.html#Topic6">建立监听描述符,listenfd = Open_listenfd(port) </a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem3">
+   <a class="topicHyperlink" href="index.html#Topic12">包装函数</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem4">
+   <a class="topicHyperlink" href="index.html#Topic13">int socket(int domain , int type , int protocol) ---&gt;return nonnegative descriptor if OK , -1 on Error</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem5">
+   <a class="topicHyperlink" href="index.html#Topic14">socket(AF_INET,SOCK_STREAM,0)</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem4">
+   <a class="topicHyperlink" href="index.html#Topic15">int bink(int sockfd ,sturct sockaddr *my_addr , int addrlen) ----&gt;return 0 if OK , -1 on Error</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem5">
+   <a class="topicHyperlink" href="index.html#Topic16">bind(listenfd, (SA *)&amp;serveraddr, sizeof(serveraddr)</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem4">
+   <a class="topicHyperlink" href="index.html#Topic17">int listen(int sockfd, int backlog) ,Returns: 0 if OK, −1 on error</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem5">
+   <a class="topicHyperlink" href="index.html#Topic18">listen(listenfd, LISTENQ)</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem3">
+   <a class="topicHyperlink" href="index.html#Topic19">setsockopt(listenfd, SOL_SOCKET, SO_REUSEADDR, (const void *)&amp;optval , sizeof(int)，return 0 if OK , -1 on Error </a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem4">
+   <a class="topicHyperlink" href="index.html#Topic20">出现错误会立即重启</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem2">
+   <a class="topicHyperlink" href="index.html#Topic7">while(1) 等待连接描述到来</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem3">
+   <a class="topicHyperlink" href="index.html#Topic21">int accept(int listenfd, struct sockaddr *addr, int *addrlen); Returns: nonnegative connected descriptor if OK, −1 on error</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem4">
+   <a class="topicHyperlink" href="index.html#Topic22">Accept(listenfd, (SA *)&amp;clientaddr, &amp;clientlen)</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem3">
+   <a class="topicHyperlink" href="index.html#Topic23">accept 建立已连接描述符-&gt;confd</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem3">
+   <a class="topicHyperlink" href="index.html#Topic24">调用处理函数doit(confd)</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem4">
+   <a class="topicHyperlink" href="index.html#Topic25">Rio_readinitb(&amp;rio , fd ) --- fd连接描述符 ---&gt;rio内部缓冲区</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem4">
+   <a class="topicHyperlink" href="index.html#Topic26">Rio_readlineb(&amp;rio, buf , MAXLINE) ---rio内部缓冲区 ---&gt;buf </a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem4">
+   <a class="topicHyperlink" href="index.html#Topic27"> sscanf(buf, &quot;%s %s %s&quot;, method, uri, version);</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem4">
+   <a class="topicHyperlink" href="index.html#Topic28">if (strcasecmp(method, &quot;GET&quot;))把method提取出来 和 get post比较是否是server能提供的方法</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem5">
+   <a class="topicHyperlink" href="index.html#Topic29">若是，continue</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem5">
+   <a class="topicHyperlink" href="index.html#Topic30">不是，则调用报错函数</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem6">
+   <a class="topicHyperlink" href="index.html#Topic31">clienterror(fd, method, &quot;501&quot;, &quot;Not Implemented&quot;,&quot;Tiny does not implement this method&quot;);</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem4">
+   <a class="topicHyperlink" href="index.html#Topic32"> read_requesthdrs(&amp;rio);</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem5">
+   <a class="topicHyperlink" href="index.html#Topic33">读和解析HTTP的头部</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem4">
+   <a class="topicHyperlink" href="index.html#Topic34">is_static = parse_uri(uri, filename, cgiargs);  ----&gt;解析URI </a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem5">
+   <a class="topicHyperlink" href="index.html#Topic35">if (!strstr(uri, &quot;cgi-bin&quot;))</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem6">
+   <a class="topicHyperlink" href="index.html#Topic36">成立，则是提供静态HTML</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem7">
+   <a class="topicHyperlink" href="index.html#Topic37">strcpy(cgiargs, &quot;&quot;); --&gt;清除CGI</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem7">
+   <a class="topicHyperlink" href="index.html#Topic38">strcpy(filename, &quot;.&quot;);--&gt; begin convert1</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem7">
+   <a class="topicHyperlink" href="index.html#Topic39">strcat(filename, uri);---&gt;end convert1</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem7">
+   <a class="topicHyperlink" href="index.html#Topic40">if (uri[strlen(uri)-1] == '/')---&gt;slashcheck</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem8">
+   <a class="topicHyperlink" href="index.html#Topic41">strcat(filename, &quot;home.html&quot;);--&gt;append default</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem7">
+   <a class="topicHyperlink" href="index.html#Topic42">return 1</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem6">
+   <a class="topicHyperlink" href="index.html#Topic43">否者，是动态内容</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem7">
+   <a class="topicHyperlink" href="index.html#Topic44">ptr = index(uri, '?');----&gt; begin extract 把文件名和参数 用 ？分开</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem7">
+   <a class="topicHyperlink" href="index.html#Topic45">if (ptr)</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem8">
+   <a class="topicHyperlink" href="index.html#Topic46">成立 </a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem9">
+   <a class="topicHyperlink" href="index.html#Topic47">strcpy(cgiargs, ptr+1);     *ptr = '\0';</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem8">
+   <a class="topicHyperlink" href="index.html#Topic48">else</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem9">
+   <a class="topicHyperlink" href="index.html#Topic49">strcpy(cgiargs, &quot;&quot;);  ---&gt;表示没有参数</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem7">
+   <a class="topicHyperlink" href="index.html#Topic50">strcpy(filename, &quot;.&quot;); -----&gt; begin convert2</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem7">
+   <a class="topicHyperlink" href="index.html#Topic51">strcat(filename, uri); ------&gt; end convert2 </a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem7">
+   <a class="topicHyperlink" href="index.html#Topic52">return 0;</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem4">
+   <a class="topicHyperlink" href="index.html#Topic53">if (stat(filename, &amp;sbuf) &lt; 0)---判断请求的文件是否存在</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem5">
+   <a class="topicHyperlink" href="index.html#Topic54">若是，continue</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem5">
+   <a class="topicHyperlink" href="index.html#Topic55">若不是，则调用报错函数</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem6">
+   <a class="topicHyperlink" href="index.html#Topic56">clienterror(fd, filename, &quot;404&quot;, &quot;Not found&quot;, &quot;Tiny couldn't find this file&quot;);</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem4">
+   <a class="topicHyperlink" href="index.html#Topic57">若是静态内容</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem5">
+   <a class="topicHyperlink" href="index.html#Topic58">if (!(S_ISREG(sbuf.st_mode)) || !(S_IRUSR &amp; sbuf.st_mode))---判断是否是普通文件和权限</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem6">
+   <a class="topicHyperlink" href="index.html#Topic59">若是，调用serve_static(fd, filename, sbuf.st_size);</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem7">
+   <a class="topicHyperlink" href="index.html#Topic60"> get_filetype(filename, filetype);</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem8">
+   <a class="topicHyperlink" href="index.html#Topic61">if (strstr(filename, &quot;.html&quot;))</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem9">
+   <a class="topicHyperlink" href="index.html#Topic62">strcpy(filetype, &quot;text/html&quot;);</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem8">
+   <a class="topicHyperlink" href="index.html#Topic63">else if (strstr(filename, &quot;.gif&quot;))</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem9">
+   <a class="topicHyperlink" href="index.html#Topic64">strcpy(filetype, &quot;image/gif&quot;);</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem8">
+   <a class="topicHyperlink" href="index.html#Topic65">else if (strstr(filename, &quot;.jpg&quot;))</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem9">
+   <a class="topicHyperlink" href="index.html#Topic66">strcpy(filetype, &quot;image/jpeg&quot;);</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem8">
+   <a class="topicHyperlink" href="index.html#Topic67">else</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem9">
+   <a class="topicHyperlink" href="index.html#Topic68">strcpy(filetype, &quot;text/plain&quot;);</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem7">
+   <a class="topicHyperlink" href="index.html#Topic69">sprintf(buf, &quot;HTTP/1.0 200 OK\r\n&quot;);</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem7">
+   <a class="topicHyperlink" href="index.html#Topic70">sprintf(buf, &quot;%sServer: Tiny Web Server\r\n&quot;, buf);</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem7">
+   <a class="topicHyperlink" href="index.html#Topic71">sprintf(buf, &quot;%sContent-length: %d\r\n&quot;, buf, filesize);</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem7">
+   <a class="topicHyperlink" href="index.html#Topic72">sprintf(buf, &quot;%sContent-type: %s\r\n\r\n&quot;, buf, filetype);</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem7">
+   <a class="topicHyperlink" href="index.html#Topic73">Rio_writen(fd, buf, strlen(buf));  fd----&gt;buf 结束输出</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem7">
+   <a class="topicHyperlink" href="index.html#Topic74">srcfd = Open(filename, O_RDONLY, 0); -----openfilename</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem7">
+   <a class="topicHyperlink" href="index.html#Topic75">srcp = Mmap(0, filesize, PROT_READ, MAP_PRIVATE, srcfd, 0);  mmap -----&gt;在内核空间和用户空间的使用了共同的内存，即是内存共享</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem7">
+   <a class="topicHyperlink" href="index.html#Topic76">Close(srcfd);  ----关闭文件描述符</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem7">
+   <a class="topicHyperlink" href="index.html#Topic77">Rio_writen(fd, srcp, filesize); ---&gt; fd---&gt;srcp</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem7">
+   <a class="topicHyperlink" href="index.html#Topic78">Munmap(srcp, filesize); -----关闭共享内存</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem6">
+   <a class="topicHyperlink" href="index.html#Topic79">若不是，调用出错函数 clienterror(fd, filename, &quot;403&quot;, &quot;Forbidden&quot;,   &quot;Tiny couldn't read the file&quot;);</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem4">
+   <a class="topicHyperlink" href="index.html#Topic80">若是动态内容</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem5">
+   <a class="topicHyperlink" href="index.html#Topic81">if (!(S_ISREG(sbuf.st_mode)) || !(S_IRUSR &amp; sbuf.st_mode))---判断是否是普通文件和权限</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem6">
+   <a class="topicHyperlink" href="index.html#Topic82">若是，调用serve_dynamic(fd, filename, cgiargs); </a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem7">
+   <a class="topicHyperlink" href="index.html#Topic83">char buf[MAXLINE], *emptylist[] = { NULL };</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem7">
+   <a class="topicHyperlink" href="index.html#Topic84"> sprintf(buf, &quot;HTTP/1.0 200 OK\r\n&quot;);  Rio_writen(fd, buf, strlen(buf)); sprintf(buf, &quot;Server: Tiny Web Server\r\n&quot;);</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem7">
+   <a class="topicHyperlink" href="index.html#Topic85">Rio_writen(fd, buf, strlen(buf));   ------fd  ---&gt; buf</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem7">
+   <a class="topicHyperlink" href="index.html#Topic86">if (Fork() == 0)</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem8">
+   <a class="topicHyperlink" href="index.html#Topic87">setenv(&quot;QUERY_STRING&quot;, cgiargs, 1);----获取cgiargs</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem8">
+   <a class="topicHyperlink" href="index.html#Topic88">Dup2(fd, STDOUT_FILENO);  -----fd ---&gt;重定向标准输出</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem8">
+   <a class="topicHyperlink" href="index.html#Topic89">Execve(filename, emptylist, environ); ----执行CGI运行环境</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem7">
+   <a class="topicHyperlink" href="index.html#Topic90">Wait(NULL); ---回收子进程</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem6">
+   <a class="topicHyperlink" href="index.html#Topic91">若不是，调用出错函数 clienterror(fd, filename, &quot;403&quot;, &quot;Forbidden&quot;,   &quot;Tiny couldn't read the file&quot;);</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem3">
+   <a class="topicHyperlink" href="index.html#Topic92">Close(connfd);  关闭连接符</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem1">
+   <a class="topicHyperlink" href="index.html#Topic8">2. 数据结构</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<!-- BEGIN TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+<div class="contentItem2">
+   <a class="topicHyperlink" href="index.html#Topic9">Rio_t</a></div>
+<!-- END TOOLS UTILITIES CONTENTS OUTLINE ITEM WITH CHILDREN--> 
+
+</div>
+
+      </td>
+      <td class="TOCAbout">
+<!-- BEGIN TOOLS UTILITIES CONTENTS ABOUT-->
+<div class="collapsiblebox">	
+	<div class="header">
+		<div class="title">About</div>
+	</div>
+	<div class="body">
+		<div class="mapPreview"> 
+			<img src="index.jpg" alt="">
+		</div>
+		<div class="property"> 
+			<div class="label">Title</div>
+			<div class="value">Tiny_Web_Server</div>
+		</div>
+		<div class="property"> 
+			<div class="label">Subject</div>
+			<div class="value">-</div>
+		</div>
+		<div class="property"> 
+			<div class="label">Company</div>
+			<div class="value">-</div>
+		</div>
+		<div class="property"> 
+			<div class="label">Author</div>
+			<div class="value">Mindjet</div>
+		</div>
+		<div class="property"> 
+			<div class="label">Version</div>
+			<div class="value">4</div>
+		</div>
+		<div class="property"> 
+			<div class="label">Comments</div>
+			<div class="value">The Mindjet MindManager 2012 default map template.</div>
+		</div>
+		<div class="clearFloat"></div>
+	</div>
+</div> 
+<!-- END TOOLS UTILITIES CONTENTS ABOUT-->
+
+      </td>
+   </tr>
+</table>
+<!---BEGIN FOOTER-->
+<table id="pageFooter">
+   <tr>
+      <!-- reserved for image <td class="left" rowspan="2"></td>-->
+      <td class="center" rowspan="2">
+         <div class="footerText">Your footer text</div>
+      </td>
+      <td class="right">
+         <div class="hyperlink">
+            <span>   
+               <a href="http://www.mindjet.com/" target="_blank">Powered By Mindjet MindManager</a>
+            </span>
+         </div>
+      </td>
+   </tr>
+   <tr>
+      <td class="right">
+         <div class="lastUpdated">
+            <span>Last updated:</span>
+            <span>2015/2/10</span>
+         </div>
+      </td>
+   </tr>
+   <tr>
+     <td></td>
+   </tr>
+</table>
+<!---END FOOTER-->
+
+
+</body>
+</html>
